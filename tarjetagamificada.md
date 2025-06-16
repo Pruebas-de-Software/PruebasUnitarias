@@ -64,7 +64,7 @@ El nivel se recalcula tras cada compra.
 | Build | Maven / Gradle (documentar en README) (Ver videos de uso JUnit)|
 | Pruebas | JUnit 5 + assertions estándar |
 | Persistencia | En memoria |
-| Estilo | Diseño OO limpio (entidades, servicios, repositorios) |
+| Estilo | Diseño OO limpio (entidades, repositorios, proyecto en general ) |
 | Medir Cobertura | Usar EclEmma (JaCoCo) o SnarQube |
 | TDD | Se sugiere uso de TDD |
 | Modalidad | Trabajo individual|
