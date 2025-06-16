@@ -77,7 +77,7 @@ El nivel se recalcula tras cada compra.
 - Mostrar Puntos / Nivel de un Cliente.
 - Salir
 
-## 7. Entregables
+## 5. Entregables
 Repositorio GitHub (público) con:
 - Código fuente organizado
 - Suite de tests JUnit.
@@ -89,5 +89,5 @@ Repositorio GitHub (público) con:
   - Otras onsideraciones vistas previamente en curso
 
 
-# Dudas y preguntas
+# 6. Dudas y preguntas
  - Cualquier duda o descubrimiento,en el foro de la semana.
