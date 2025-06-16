@@ -1,5 +1,5 @@
 # Proyecto «Tarjeta de Fidelidad Gamificada
-Programa de línea de comandos en **Java 17+** con **pruebas unitarias JUnit 5**  
+Programa de línea de comandos en **Java 21+** con **pruebas unitarias JUnit 5**  
 
 - Este es un gran Momento para hacer uso de [TDD](https://aula.usm.cl/course/view.php?id=47173&section=15#tabs-tree-start)
 - **Tarea Individual**
