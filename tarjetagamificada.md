@@ -89,5 +89,5 @@ Repositorio GitHub (público) con:
   - Otras onsideraciones vistas previamente en curso
 
 
-# 6. Dudas y preguntas
+## 6. Dudas y preguntas
  - Cualquier duda o descubrimiento,en el foro de la semana.
