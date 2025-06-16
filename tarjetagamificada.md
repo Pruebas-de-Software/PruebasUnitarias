@@ -3,6 +3,7 @@ Programa de línea de comandos en **Java 17+** con **pruebas unitarias JUnit 5**
 
 Este es un gran Momento para hacer uso de [TDD](https://aula.usm.cl/course/view.php?id=47173&section=15#tabs-tree-start)
 
+** Tarea Individual **
 ---
 
 ## 1. Enunciado general
@@ -52,29 +53,38 @@ El código debe venir acompañado de pruebas unitarias **[JUnit 5](https://junit
 
 El nivel se recalcula tras cada compra.
 
-### 2.4 Misiones diarias (gamificación)
-
-* Al iniciar la aplicación se genera **una misión diaria única** (válida sólo ese día).  
-* Ejemplos:  
-  * «Compra al menos **\$10 000** hoy ⇒ **+30 pts**».  
-  * «Gasta **\$25 000** en una sola compra ⇒ **+50 pts**».  
-* Al registrar la compra se verifica si se cumplió la misión y se otorga el bono.
-
 ---
 
 ## 3. Requisitos técnicos
 
 | Ítem | Detalle |
 |------|---------|
-| Lenguaje | Java 17 o superior |
-| Build | Maven / Gradle (documentar en README) |
+| tipo App | Por consola |
+| Lenguaje | Java |
+| Build | Maven / Gradle (documentar en README) (Ver videos de uso JUnit)|
 | Pruebas | JUnit 5 + assertions estándar |
 | Persistencia | En memoria (listas/mapas) |
 | Estilo | Diseño OO limpio (entidades, servicios, repositorios) |
-
-> **Plus TDD**: commits que primero agregan tests y luego código ⇒ +10 % de nota.
+| Medir Cobertura | Usar EclEmma (JaCoCo) o SnarQube |
+| TDD | Se sugiere uso de TDD |
 
 ---
 
 ## 4. Menú principal (CLI)
+- Gestión de Clientes
+- Gestión de Compras
+- Mostrar Puntos / Nivel de un Cliente.
+- Salir
 
+## 7. Entregables
+Repositorio GitHub (público) con:
+- Código fuente organizado
+- Suite de tests JUnit.
+- README.md que incluya:
+  - Descripción del diseño + diagrama (UML o texto).
+  - Instrucciones para compilar, ejecutar y probar.
+  - Ejemplo de salida de tests.
+
+
+# Dudas y preguntas
+ - Cualquier duda o descubrimiento,en el foro de la semana.
