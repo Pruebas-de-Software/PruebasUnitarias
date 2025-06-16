@@ -1,9 +1,9 @@
 # Proyecto «Tarjeta de Fidelidad Gamificada
 Programa de línea de comandos en **Java 17+** con **pruebas unitarias JUnit 5**  
 
-Este es un gran Momento para hacer uso de [TDD](https://aula.usm.cl/course/view.php?id=47173&section=15#tabs-tree-start)
+- Este es un gran Momento para hacer uso de [TDD](https://aula.usm.cl/course/view.php?id=47173&section=15#tabs-tree-start)
+- **Tarea Individual**
 
-** Tarea Individual **
 ---
 
 ## 1. Enunciado general
@@ -63,10 +63,11 @@ El nivel se recalcula tras cada compra.
 | Lenguaje | Java |
 | Build | Maven / Gradle (documentar en README) (Ver videos de uso JUnit)|
 | Pruebas | JUnit 5 + assertions estándar |
-| Persistencia | En memoria (listas/mapas) |
+| Persistencia | En memoria |
 | Estilo | Diseño OO limpio (entidades, servicios, repositorios) |
 | Medir Cobertura | Usar EclEmma (JaCoCo) o SnarQube |
 | TDD | Se sugiere uso de TDD |
+| Modalidad | Trabajo individual|
 
 ---
 
