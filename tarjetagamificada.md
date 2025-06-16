@@ -39,7 +39,7 @@ El código debe venir acompañado de pruebas unitarias **[JUnit 5](https://junit
 | **Registrar compra** | Datos: `idCompra`, `idCliente`, `monto`, `fecha`. |
 | **Regla puntos base** | Cada \$100 ⇒ 1 pto (redondeo hacia abajo). |
 | **Multiplicador por nivel** | Bronce ×1 • Plata ×1.2 • Oro ×1.5 • Platino ×2 |
-| **Streak** | 3 días seguidos ⇒ +10 pts; se reinicia al fallar un día. |
+| **bonnus** | 3 compras seguidas (dentro de un mismo día) ⇒ +10 pts; se reinicia cada dái. |
 | **Histórico** | CRUD de compras. |
 
 ### 2.3 Niveles de Fidelidad
@@ -81,9 +81,11 @@ Repositorio GitHub (público) con:
 - Código fuente organizado
 - Suite de tests JUnit.
 - README.md que incluya:
-  - Descripción del diseño + diagrama (UML o texto).
+  - Descripción del diseño (diagrama UML o otro), no incluir enlaces a repositorios personales (por ejemplo en Sharepoint).
   - Instrucciones para compilar, ejecutar y probar.
   - Ejemplo de salida de tests.
+  - Licencia
+  - Otras onsideraciones vistas previamente en curso
 
 
 # Dudas y preguntas
