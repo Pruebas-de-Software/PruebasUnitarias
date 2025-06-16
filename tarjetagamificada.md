@@ -87,6 +87,7 @@ Repositorio GitHub (público) con:
   - Ejemplo de salida de tests.
   - Licencia
   - Otras onsideraciones vistas previamente en curso
+  - Responde a pregunta, ¿Qué tipo de cobertura he medido y por qué?
 
 
 ## 6. Dudas y preguntas
