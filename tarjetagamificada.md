@@ -28,7 +28,7 @@ El código debe venir acompañado de pruebas unitarias **[JUnit 5](https://junit
 
 | Operación | Detalles |
 |-----------|----------|
-| **Agregar cliente** | Atributos: `id`, `nombre`, `correo`, `puntos` (0), `nivel` (Bronce), `streakDias` (0). |
+| **Agregar cliente** | Atributos: `id`, `nombre`, `correo`, `puntos` (0), `nivel` (Bronce), ~~`streakDias` (0).~~ |
 | **CRUD completo** | Crear – Listar – Actualizar – Eliminar. |
 | **Restricción** | El `correo` debe ser válido (`@`). |
 
