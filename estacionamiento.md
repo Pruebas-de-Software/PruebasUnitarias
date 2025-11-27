@@ -108,8 +108,8 @@ El sistema debe permitir:
 | Pruebas     | JUnit 5 + assertions estándar                                                             |
 | Persistencia| En memoria (no se requieren archivos ni base de datos)                                    |
 | Estilo      | Diseño OO limpio (clases para entidades, lógica de cálculo separada, etc.)               |
-| Medir cobertura | Usar EclEmma (JaCoCo) o SonarQube                                                     |
-| TDD         | Se sugiere uso de TDD en el desarrollo (no obligatorio, pero recomendado)                 |
+| Medir cobertura | Usar EclEmma (JaCoCo)                                                |
+| TDD         | Se sugiere uso de TDD en el desarrollo (no obligatorio, pero lo recomendado)                 |
 | Modalidad   | Trabajo individual                                                                        |
 
 ---
