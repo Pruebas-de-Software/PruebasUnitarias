@@ -34,9 +34,9 @@ El código debe venir acompañado de:
 | Operación           | Detalles                                                                                  |
 |---------------------|-------------------------------------------------------------------------------------------|
 | Registrar entrada   | Crea un ticket de estacionamiento con: `idTicket`, `patente`, `tipoVehiculo` (AUTO, MOTO, CAMIONETA), `fechaHoraEntrada`, `estado` (ABIERTO). |
-| Registrar salida    | Completa un ticket **abierto** agregando: `fechaHoraSalida`, `montoCobrado`, cambio de `estado` a CERRADO. |
-| Listar tickets abiertos | Muestra todos los tickets cuyo estado es ABIERTO.                                    |
-| Listar tickets cerrados | Muestra el histórico de tickets con estado CERRADO.                                  |
+| Registrar salida    | Completa un ticket **abierto** agregando: `fechaHoraSalida`, `montoCobrado`, cambio de `estado` a "Cerrado" |
+| Listar tickets abiertos | Muestra todos los tickets cuyo estado es "Abierto"                                 |
+| Listar tickets cerrados | Muestra el histórico de tickets con estado "Cerrado".                                  |
 | Restricciones       | No se puede registrar salida de un ticket inexistente o ya cerrado.                      |
 
 > Puedes modelar tickets y vehículos como una o varias clases, pero el sistema debe tener clara la idea de un **ticket abierto/cerrado**.
@@ -45,12 +45,12 @@ El código debe venir acompañado de:
 
 ### 2.2. Cálculo de tarifas
 
-Cuando se registra la **salida** de un vehículo, el sistema debe calcular el valor a pagar según estas reglas:
+Cuando se registra la "salida" de un vehículo, el sistema debe calcular el valor a pagar según estas reglas:
 
 1. **Duración del estacionamiento**
 
    - Se calcula la duración en minutos entre `fechaHoraEntrada` y `fechaHoraSalida`.
-   - Si la duración es menor o igual a 0 minutos, la operación debe considerarse inválida (no se debe cobrar).
+   - Si la duración es menor o igual a 0 minutos, la operación debe considerarse inválida (no se cobrar).
 
 2. **Bloques de tiempo**
 
@@ -68,23 +68,22 @@ Cuando se registra la **salida** de un vehículo, el sistema debe calcular el va
 | MOTO             | $500                        |
 | CAMIONETA        | $1.000                      |
 
-> Puedes usar estos valores tal cual en tu implementación.
+SE sugiere usar estos valores en la implementación
 
 4. **Tope diario**
 
    - El monto total a pagar por un ticket **no puede exceder** un máximo diario (por día calendario).  
-   - Para simplificar, usa un **tope único** para todos los vehículos:
+   - Para simplificar, usa un "tope único" para todos los vehículos:
      - **Tope diario**: $15.000  
-   - Si el cálculo por bloques supera este monto, se cobra $15.000.
+   - Si el cálculo por bloques supera este monto, se cobra $15.000 (no hay un teximetro eterno).
 
 5. **Descuento fin de semana**
 
-   - Si la **fecha de entrada** del ticket corresponde a **sábado o domingo**, se aplica un **10 % de descuento** al valor final (después de aplicar el tope diario, si corresponde).
+   - Si la **fecha de entrada** del ticket corresponde a **sábado o domingo**, se aplica un "10 % de descuento" al valor final (después de aplicar el tope diario, si corresponde).
    - El descuento debe redondearse hacia abajo al entero más cercano.
 
-> Toda esta lógica de duración, bloques, tope y descuento debe ser fácilmente testeable con pruebas unitarias.
+Toda esta lógica de duración, bloques, tope y descuento debe ser fácilmente testeable con pruebas unitarias.
 
----
 
 ### 2.3. Consultas y reportes simples
 
