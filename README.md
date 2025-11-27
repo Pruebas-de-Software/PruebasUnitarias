@@ -20,4 +20,10 @@ Introducción a Unit Testing, comenzando con ejemplos prácticos en Java y Pytho
   
    - [>> Tarjeta de Fidelidad](https://github.com/Pruebas-de-Software/PruebasUnitarias/blob/main/tarjetagamificada.md): Tarjeta de Fidelidad Gamificada.
 
+
+- **JUnit Estacionamiento**  
+   Sistema que gestiona programa de fidelidad para una cadena de tiendas:
+  
+   - [>> Sistema de estacionamientos](https://github.com/Pruebas-de-Software/PruebasUnitarias/blob/main/estacionamiento.md): Sistema estacionamiento.
+
 ---
