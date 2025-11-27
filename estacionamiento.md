@@ -131,24 +131,16 @@ El sistema debe ofrecer un menú similar a este:
 ---
 
 ## 5. Entregables
-
-Repositorio **GitHub público** con:
-
-1. **Código fuente** organizado del proyecto.
-2. **Suite de tests JUnit 5** (con casos que cubran la lógica principal de cálculo de tarifas y validaciones).
-3. Archivo **`README.md`** que incluya:
-   - Descripción breve del diseño (puede ser un diagrama UML simple u otro esquema).  
-   - Instrucciones para:
-     - Compilar el proyecto  
-     - Ejecutar la aplicación por consola  
-     - Ejecutar los tests  
-   - Ejemplo de salida de la ejecución de los tests (por consola o reporte).  
-   - Indicar la **herramienta de cobertura** utilizada.  
-   - Responder a la pregunta:
-     > “¿Qué tipo de cobertura he medido y por qué la elegí?”  
-   - Licencia del proyecto (por ejemplo, MIT, Apache 2.0, etc.).
-
-> No incluir enlaces a repositorios personales privados (SharePoint, OneDrive, etc.).
+Repositorio GitHub (público) con:
+- Código fuente organizado
+- Suite de tests JUnit.
+- README.md que incluya:
+  - Descripción del diseño (diagrama UML o otro), no incluir enlaces a repositorios personales (por ejemplo en Sharepoint).
+  - Instrucciones para compilar, ejecutar y probar.
+  - Ejemplo de salida de tests.
+  - Licencia
+  - Otras onsideraciones vistas previamente en curso
+  - Responde a pregunta: **¿Qué tipo de cobertura he medido y por qué?**
 
 ---
 
