@@ -5,7 +5,7 @@ Momento de para hacer uso de **TDD**
 **Tarea individual**
 **Prohibido el vibe coding
 
-## 1. Enunciado general
+## 1. Enunciado
 
 Desarrollar un sistema que gestione el **cobro de un estacionamiento** para distintos tipos de vehículos.
 
@@ -24,11 +24,10 @@ El código debe venir acompañado de:
 - **Pruebas unitarias JUnit 5**.  
 - **Medición de cobertura de código** con alguna de estas herramientas:
   - EclEmma / JaCoCo  
-  - SonarQube  
 
 ---
 
-## 2. Requisitos funcionales
+## 2. Requisitos( funcionales)
 
 ### 2.1. Gestión de Tickets de Estacionamiento
 
