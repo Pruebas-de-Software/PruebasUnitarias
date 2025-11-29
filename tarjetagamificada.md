@@ -5,6 +5,10 @@ Programa de línea de comandos en **Java** con **pruebas unitarias JUnit 5**
 - **Tarea Individual**
 
 ---
+#### Mejores respuestas
+- Tarea 1
+    - [Repo](#)
+---
 
 ## 1. Enunciado general
 Desarrollar un sistema que gestione un programa de fidelidad para una cadena de tiendas de conveniencia.  
