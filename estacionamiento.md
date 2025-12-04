@@ -3,7 +3,7 @@ Programa de línea de comandos en Java con pruebas unitarias JUnit 5
 
 Momento de para hacer uso de **TDD**  
 **Tarea individual**
-**Prohibido el vibe coding
+**Prohibido el vibe coding (necesitamos aprender)
 
 ## 1. Enunciado
 
