@@ -26,4 +26,8 @@ Introducción a Unit Testing, comenzando con ejemplos prácticos en Java y Pytho
   
    - [>> Sistema de tarifas de estacionamientos](https://github.com/Pruebas-de-Software/PruebasUnitarias/blob/main/estacionamiento.md)
 
+- **JUnit Biblioteca**  
+   Prestamo y devolución de libros (caso simple)
+  
+   - [>> Sistema de tarifas de estacionamientos](https://github.com/Pruebas-de-Software/PruebasUnitarias/blob/main/biblioteca.md)
 ---
