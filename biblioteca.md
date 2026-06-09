@@ -144,6 +144,7 @@ Los estudiantes deberán implementar pruebas unitarias que cubran, al menos, los
 * No permitir registrar un libro con ISBN vacío.
 * No permitir registrar un libro con título vacío.
 * No permitir registrar dos libros con el mismo ISBN.
+* ...
 
 ## Búsqueda de libros
 
@@ -152,6 +153,7 @@ Los estudiantes deberán implementar pruebas unitarias que cubran, al menos, los
 * Buscar libros por coincidencia parcial del título.
 * Buscar libros sin diferenciar mayúsculas y minúsculas.
 * Listar únicamente los libros disponibles.
+* ...
 
 ## Préstamo de libros
 
@@ -159,6 +161,7 @@ Los estudiantes deberán implementar pruebas unitarias que cubran, al menos, los
 * Verificar que el libro queda no disponible después del préstamo.
 * No permitir prestar un libro inexistente.
 * No permitir prestar un libro que ya está prestado.
+* ...
 
 ## Devolución de libros
 
@@ -166,6 +169,7 @@ Los estudiantes deberán implementar pruebas unitarias que cubran, al menos, los
 * Verificar que el libro queda disponible después de la devolución.
 * No permitir devolver un libro inexistente.
 * No permitir devolver un libro que ya estaba disponible.
+* ...
 
 ---
 
