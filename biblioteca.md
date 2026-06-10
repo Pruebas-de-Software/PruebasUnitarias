@@ -6,6 +6,8 @@ Diseñar e implementar, utilizando **Java**, **JUnit 5** y la metodología **Tes
 
 El objetivo principal de esta actividad es practicar el desarrollo guiado por pruebas (TDD), fortaleciendo tanto las habilidades de programación como la capacidad de diseñar pruebas unitarias efectivas.
 
+NOTA: NO usar IA en este ejercicio
+
 ---
 
 # Contexto
