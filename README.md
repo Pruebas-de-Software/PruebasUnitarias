@@ -15,16 +15,16 @@ Introducción a Unit Testing, comenzando con ejemplos prácticos en Java y Pytho
   - [>> Versión 1](https://github.com/Pruebas-de-Software/JUnit-Retiro-Deposito-Cuenta-Bancaria): Simulación de retiro de efectivo y validación de saldo.
   - [>> Versión 2](https://github.com/Pruebas-de-Software/JUnit-Retiros-y-Depositos): Simulación de retiro de efectivo y validación de saldo.
 
- - **JUnit Tarjeta de Fidelidad Gamificada**  
+- **JUnit Tarjeta de Fidelidad Gamificada**  
    Sistema que gestiona programa de fidelidad para una cadena de tiendas:
   
-   - [>> Tarjeta de Fidelidad Gamificada](https://github.com/Pruebas-de-Software/PruebasUnitarias/blob/main/tarjetagamificada.md)
+  - [>> Tarjeta de Fidelidad Gamificada](https://github.com/Pruebas-de-Software/PruebasUnitarias/blob/main/tarjetagamificada.md)
 
 
 - **JUnit Estacionamiento**  
    Calculadora de tarifas de estacionamiento
   
-   - [>> Sistema de tarifas de estacionamientos](https://github.com/Pruebas-de-Software/PruebasUnitarias/blob/main/estacionamiento.md)
+  - [>> Sistema de tarifas de estacionamientos](https://github.com/Pruebas-de-Software/PruebasUnitarias/blob/main/estacionamiento.md)
 
 - **JUnit Biblioteca**  
    Prestamo y devolución de libros (caso simple)
