@@ -253,3 +253,7 @@ Nuevas reglas:
 * Debe ser posible listar todos los libros prestados por un usuario.
 
 Las funcionalidades opcionales deben estar acompañadas de sus respectivas pruebas unitarias.
+
+@2026
+
+---
